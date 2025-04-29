@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Education Hero Illustration</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4F46E5" offset="0%"></stop>
+            <stop stop-color="#3B82F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#4F46E5" offset="0%"></stop>
+            <stop stop-color="#3B82F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Education-Illustration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background Circle Elements -->
+        <circle id="Background-Circle-1" fill="#EBF4FF" cx="400" cy="300" r="250"></circle>
+        <circle id="Background-Circle-2" fill="#DBEAFE" cx="400" cy="300" r="200"></circle>
+        
+        <!-- Central Connection Node -->
+        <circle id="Central-Node" fill="url(#linearGradient-1)" cx="400" cy="300" r="60"></circle>
+        
+        <!-- Connected Nodes -->
+        <g id="Connected-Nodes">
+            <!-- Learning Node -->
+            <circle id="Learning-Node" fill="#3B82F6" cx="250" cy="200" r="40"></circle>
+            <!-- Community Node -->
+            <circle id="Community-Node" fill="#3B82F6" cx="550" cy="200" r="40"></circle>
+            <!-- Growth Node -->
+            <circle id="Growth-Node" fill="#3B82F6" cx="250" cy="400" r="40"></circle>
+            <!-- Technology Node -->
+            <circle id="Technology-Node" fill="#3B82F6" cx="550" cy="400" r="40"></circle>
+        </g>
+        
+        <!-- Connection Lines -->
+        <g id="Connection-Lines" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" stroke-dasharray="5,10">
+            <line x1="400" y1="300" x2="250" y2="200"></line>
+            <line x1="400" y1="300" x2="550" y2="200"></line>
+            <line x1="400" y1="300" x2="250" y2="400"></line>
+            <line x1="400" y1="300" x2="550" y2="400"></line>
+        </g>
+        
+        <!-- Education Icons -->
+        <g id="Education-Icons" fill="#FFFFFF">
+            <!-- Book Icon in Learning Node -->
+            <g transform="translate(235, 185)">
+                <rect width="30" height="30" rx="2"></rect>
+                <path d="M8,7 L22,7 M8,15 L22,15 M8,23 L22,23" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+            
+            <!-- People Icon in Community Node -->
+            <g transform="translate(535, 185)">
+                <circle cx="10" cy="10" r="5"></circle>
+                <circle cx="25" cy="10" r="5"></circle>
+                <circle cx="17.5" cy="25" r="5"></circle>
+            </g>
+            
+            <!-- Growth Chart Icon -->
+            <g transform="translate(235, 385)">
+                <path d="M5,25 L5,10 L12,15 L19,7 L25,12 L25,25 Z" stroke="#FFFFFF" stroke-width="2" fill="none"></path>
+                <polyline points="5,5 5,25 25,25" stroke="#FFFFFF" stroke-width="2" fill="none"></polyline>
+            </g>
+            
+            <!-- Technology Icon -->
+            <g transform="translate(535, 385)">
+                <rect x="8" y="8" width="24" height="16" rx="2"></rect>
+                <rect x="14" y="24" width="12" height="3" rx="1"></rect>
+                <rect x="17" y="27" width="6" height="3" rx="1"></rect>
+            </g>
+        </g>
+        
+        <!-- Central Icon - Graduation Cap -->
+        <g id="Graduation-Cap" transform="translate(375, 275)" fill="#FFFFFF">
+            <path d="M50,10 L25,0 L0,10 L25,20 L50,10 Z" fill="#FFFFFF"></path>
+            <path d="M10,15 L10,30 C10,30 17.5,35 25,35 C32.5,35 40,30 40,30 L40,15 L25,22 L10,15 Z" fill="#FFFFFF"></path>
+            <rect x="23" y="35" width="4" height="15" fill="#FFFFFF"></rect>
+            <rect x="20" y="50" width="10" height="2" fill="#FFFFFF"></rect>
+        </g>
+        
+        <!-- Small Elements to Represent Students & Learning -->
+        <g id="Student-Elements" transform="translate(100, 100)">
+            <circle cx="30" cy="30" r="15" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+            <circle cx="90" cy="60" r="10" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+            <circle cx="50" cy="180" r="20" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+        </g>
+        
+        <g id="Student-Elements-Right" transform="translate(550, 120)">
+            <circle cx="30" cy="30" r="12" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+            <circle cx="90" cy="60" r="18" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+            <circle cx="70" cy="150" r="15" fill="#EBF4FF" stroke="#4F46E5" stroke-width="2"></circle>
+        </g>
+    </g>
+</svg> 
