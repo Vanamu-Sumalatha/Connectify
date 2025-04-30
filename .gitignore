@@ -79,4 +79,11 @@ env/
 .cache/
 .next/
 .nuxt/
-.tmp/ 
+.tmp/
+
+# Files to ignore
+desktop.ini
+project-ascii-flowcharts.md
+project-flowchart.md
+project-flowcharts.md
+restart.bat 
