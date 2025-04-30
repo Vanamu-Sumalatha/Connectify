@@ -50,6 +50,7 @@ A comprehensive learning platform with role-based access control for students an
 2. **Install Dependencies**
    ```bash
    # Install backend dependencies
+   cd backend
    npm install
 
    # Install frontend dependencies
@@ -75,8 +76,8 @@ A comprehensive learning platform with role-based access control for students an
    npm run dev
 
    # Or run separately
-   npm run server  # Backend
-   npm run client  # Frontend
+   npm run dev  # Backend
+   npm run dev  # Frontend
    ```
 
 ## 📁 Project Structure
@@ -141,16 +142,14 @@ Connectify Like Minds/
 ```bash
 # Development
 npm run dev        # Run both frontend and backend
-npm run server    # Run backend only
-npm run client    # Run frontend only
+
+npm run dev    # Run backend only
+npm run dev    # Run frontend only
 
 # Production
 npm run build     # Build frontend
 npm run start     # Start production server
 
-# Testing
-npm run test      # Run tests
-npm run lint      # Run linter
 ```
 
 ## 🤝 Contributing
@@ -161,10 +160,6 @@ npm run lint      # Run linter
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Support
 
-For support, email support@connectify.com or join our Slack channel. # Connectify
+For support, email ravikumar1015@gmail.com or join our Slack channel. # Connectify
