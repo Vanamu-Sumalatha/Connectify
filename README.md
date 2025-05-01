@@ -222,4 +222,4 @@ npm run start     # Start production server
 
 ## 📞 Support
 
-For support, email vanamusumalatha@gmail.com or join our Slack channel. # Connectify
+For support, email sumalathavanamu@gmail.com or join our Slack channel. # Connectify
