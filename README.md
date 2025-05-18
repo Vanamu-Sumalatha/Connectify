@@ -103,7 +103,7 @@ A comprehensive learning platform with role-based access control for students an
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Ravikumar1032/Connectify.git
+   git clone https://github.com/Vanamu-Sumalatha/Connectify.git
    cd Connectify
    ```
 
